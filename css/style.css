@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* line 2, ../Aperture/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 7, ../Aperture/scss/style.scss */
+::-webkit-scrollbar {
+  border-radius: 1px;
+  width: 5px;
+  background-color: #000000;
+  opacity: 0.3;
+}
+
+/* line 12, ../Aperture/scss/style.scss */
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: #d1d1d1;
+}
+
+/* line 17, ../Aperture/scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 21, ../Aperture/scss/style.scss */
+div .location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 600px;
+}
+
+/* line 27, ../Aperture/scss/style.scss */
+div .location-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 35, ../Aperture/scss/style.scss */
+div .location-descr {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+/* line 45, ../Aperture/scss/style.scss */
+.container {
+  width: 1200px;
+}
+
+/* line 48, ../Aperture/scss/style.scss */
+.preloader {
+  transition: 5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #181818;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 63, ../Aperture/scss/style.scss */
+.header {
+  background-color: #181818;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 68, ../Aperture/scss/style.scss */
+.header__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 75, ../Aperture/scss/style.scss */
+.header .nav__menu {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+/* line 81, ../Aperture/scss/style.scss */
+.header .nav__menu button {
+  width: 155px;
+  height: 42px;
+  border-radius: 14px;
+  border-style: none;
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* line 92, ../Aperture/scss/style.scss */
+.header .nav__item a {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffff;
+}
+
+/* line 101, ../Aperture/scss/style.scss */
+.about {
+  display: flex;
+  justify-content: center;
+  background: url(../img/about_bg.png) no-repeat;
+  height: 711px;
+}
+
+/* line 106, ../Aperture/scss/style.scss */
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+/* line 111, ../Aperture/scss/style.scss */
+.about__wrapper h3 {
+  margin-top: 461px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* line 121, ../Aperture/scss/style.scss */
+.about__wrapper h2 {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 128, ../Aperture/scss/style.scss */
+.about__wrapper p {
+  margin-top: 18px;
+  width: 580px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/* line 140, ../Aperture/scss/style.scss */
+.specialization {
+  height: 1558px;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+/* line 145, ../Aperture/scss/style.scss */
+.specialization__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 149, ../Aperture/scss/style.scss */
+.specialization__wrapper .title {
+  margin-top: 133px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+/* line 156, ../Aperture/scss/style.scss */
+.specialization__wrapper .descr {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  color: #C0C0C0;
+}
+
+/* line 164, ../Aperture/scss/style.scss */
+.specialization__exempels {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1168px;
+  height: 1216px;
+  cursor: pointer;
+}
+
+/* line 174, ../Aperture/scss/style.scss */
+.specializationCard__item {
+  margin-top: 16px;
+  width: 576px;
+  height: 600px;
+}
+
+/* line 178, ../Aperture/scss/style.scss */
+.specializationCard__item-title {
+  margin-top: 401px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 188, ../Aperture/scss/style.scss */
+.specializationCard__item-descr {
+  height: 80px;
+  width: 516px;
+  margin-top: 15px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+/* line 198, ../Aperture/scss/style.scss */
+.specializationCard__item button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8px;
+  width: 143px;
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  border-style: none;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/* line 210, ../Aperture/scss/style.scss */
+.specializationCard__item button div {
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  border-radius: 12px;
+}
+
+/* line 220, ../Aperture/scss/style.scss */
+.japan {
+  display: flex;
+  justify-content: right;
+  padding-right: 60px;
+  height: 600px;
+}
+
+/* line 226, ../Aperture/scss/style.scss */
+.tools {
+  display: flex;
+  height: 540px;
+}
+
+/* line 229, ../Aperture/scss/style.scss */
+.tools .firstHalf {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background-color: #000000;
+}
+
+/* line 235, ../Aperture/scss/style.scss */
+.tools .firstHalf .info_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  height: 314px;
+  padding-right: 40px;
+  margin-left: 60px;
+}
+
+/* line 244, ../Aperture/scss/style.scss */
+.tools .firstHalf h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+
+/* line 252, ../Aperture/scss/style.scss */
+.tools .firstHalf h3 {
+  margin-top: 6px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+/* line 261, ../Aperture/scss/style.scss */
+.tools .firstHalf p {
+  margin-top: 14px;
+  width: 514px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+/* line 269, ../Aperture/scss/style.scss */
+.tools .firstHalf button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 152px;
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 14px;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* line 280, ../Aperture/scss/style.scss */
+.tools .firstHalf button div {
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  border-radius: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+/* line 293, ../Aperture/scss/style.scss */
+.tools .secondHalf {
+  width: 50%;
+  height: 100%;
+  background: url("../img/tools_bg.png");
+}
+
+/* line 299, ../Aperture/scss/style.scss */
+.leaf {
+  display: flex;
+  justify-content: right;
+  padding-right: 60px;
+  height: 600px;
+}
+
+/* line 305, ../Aperture/scss/style.scss */
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #000000;
+}
+
+/* line 311, ../Aperture/scss/style.scss */
+.clients__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+}
+
+/* line 316, ../Aperture/scss/style.scss */
+.clients__wrapper h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 323, ../Aperture/scss/style.scss */
+.clients__wrapper p {
+  margin-top: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/* line 333, ../Aperture/scss/style.scss */
+.clients__wrapper .partners {
+  margin-top: 40px;
+  width: 1168px;
+  height: 158px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 343, ../Aperture/scss/style.scss */
+.starfall {
+  display: flex;
+  justify-content: right;
+  padding-right: 60px;
+  height: 600px;
+}
+
+/* line 349, ../Aperture/scss/style.scss */
+.help {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 414px;
+}
+
+/* line 356, ../Aperture/scss/style.scss */
+.help h1 {
+  width: 571px;
+  height: 84px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 365, ../Aperture/scss/style.scss */
+.help p {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/* line 373, ../Aperture/scss/style.scss */
+.help button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 154px;
+  height: 42px;
+  background-color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #000000;
+  border-radius: 14px;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+/* line 390, ../Aperture/scss/style.scss */
+.help button div {
+  width: 32px;
+  height: 32px;
+  border-radius: 12px;
+  background-color: #000000;
+}
+
+/* line 398, ../Aperture/scss/style.scss */
+.info-location {
+  width: 294.75px;
+  height: 16px;
+  position: absolute;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* line 404, ../Aperture/scss/style.scss */
+.info-location div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 408, ../Aperture/scss/style.scss */
+.info-location div p {
+  margin-left: 6px;
+}
+
+/* line 412, ../Aperture/scss/style.scss */
+.info-location p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
