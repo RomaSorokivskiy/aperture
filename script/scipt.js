@@ -66,10 +66,10 @@ window.addEventListener('DOMContentLoaded', () => {
             const element = document.createElement('div');
             element.className = 'info-location';
             element.innerHTML = `
-                <div class="speed"><img src = "./img/speed.png"><p>${this.speed}</p></div>
-                <div class="angle"><img src = "./img/angle.png"><p>${this.angel}</p></div>
-                <div class="iso"><img src = "./img/iso.png"><p>${this.iso}</p></div>
-                <div class="position"><img src = "./img/position.png"><p>${this.positon}</p></div>
+                <div class="speed"><img src = "/img/speed.png"><p>${this.speed}</p></div>
+                <div class="angle"><img src = "/img/angle.png"><p>${this.angel}</p></div>
+                <div class="iso"><img src = "/img/iso.png"><p>${this.iso}</p></div>
+                <div class="position"><img src = "/img/position.png"><p>${this.positon}</p></div>
             `
             element.style.left = `${this.left}`
             element.style.top = `${this.top}`;
@@ -77,44 +77,44 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }
     new SpecializationCard(
-        "./img/SpecializationCard1.png",
+        "/img/SpecializationCard1.png",
         "Product Photography",
         "Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.",
         ".specialization__exempels"
     ).render();
     new SpecializationCard(
-        "./img/SpecializationCard2.png",
+        "/img/SpecializationCard2.png",
         "Architecture Photography",
         "Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.",
         ".specialization__exempels"
     ).render();
     new SpecializationCard(
-        "./img/SpecializationCard3.png",
+        "/img/SpecializationCard3.png",
         "Drone Photography",
         "Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.",
         ".specialization__exempels"
     ).render();
     new SpecializationCard(
-        "./img/SpecializationCard4.png",
+        "/img/SpecializationCard4.png",
         "Wildlife Photography",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.",
         ".specialization__exempels"
     ).render();
 
     new Location(
-        "./img/japan_bg.png",
+        "/img/japan_bg.png",
         "Sunset at Mount Fuji",
         "Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.",
         ".japan"
     ).render();
     new Location(
-        "./img/leaf_bg.png",
+        "/img/leaf_bg.png",
         "Monstera Leafs",
         "Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.",
         ".leaf"
     ).render();
     new Location(
-        "./img/starfall_bg.png",
+        "/img/starfall_bg.png",
         "Star fall in the Himalayas",
         "Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.",
         '.starfall'
