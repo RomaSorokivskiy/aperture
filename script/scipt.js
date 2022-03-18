@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
             const element = document.createElement('div');
             element.className = 'info-location';
             element.innerHTML = `
-                <div class="speed"><img src = "./aperture/img/speed.png"><p>${this.speed}</p></div>
+                <div class="speed"><img src = "../img/speed.png"><p>${this.speed}</p></div>
                 <div class="angle"><img src = "../img/angle.png"><p>${this.angel}</p></div>
                 <div class="iso"><img src = "../img/iso.png"><p>${this.iso}</p></div>
                 <div class="position"><img src = "../img/position.png"><p>${this.positon}</p></div>
